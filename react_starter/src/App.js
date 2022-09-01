@@ -1,21 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import HeaderComponent from './headerComponent.jsx';
+
 
 
 function App() {
   return (
-    <div >
-      <header>
-        <h1>Boston Celtics</h1>
-        <h3>17 Time World Champions</h3>
-        <p>
-          2022 Eastern Conference Champions
-        </p>
-        
-       
-      </header>
+    <>
+      
 
-      <body>
+      
+
+        <HeaderComponent />
       <h3>Roster</h3>
       <h5>Guards</h5>
         <ul>
@@ -42,8 +37,8 @@ function App() {
         <li>Robert Williams III</li>
         </ul>
        
-      </body>
-    </div>
+      
+    </>
   );
 }
 

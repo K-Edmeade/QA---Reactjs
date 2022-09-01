@@ -1,0 +1,99 @@
+[{"firstName" : "Jaylen",
+"lastName" : "Brown",
+"position" : "Shooting Guard",
+"contract" :[
+    {"salary":"$30m"},
+    {"length":"4 Years"},
+    {"contractType":"Rookie extension"},
+    {"option":"no"}
+] 
+
+},
+{"firstName" : "Danilo",
+"lastName" : "Gallinari",
+"position" : "Small Forward",
+"contract" :[
+    {"salary":"$30m"},
+    {"length":"4 Years"},
+    {"contractType":"Rookie extension"},
+    {"option":"no"}
+] 
+
+},
+{"firstName" : "Malcolm",
+"lastName" : "Brogdon",
+"position" : "Shooting Guard",
+"contract" :[
+    {"salary":"$30m"},
+    {"length":"4 Years"},
+    {"contractType":"Rookie extension"},
+    {"option":"no"}
+] 
+
+},
+{"firstName" : "Marcus",
+"lastName" : "Smart",
+"position" : "Point Guard",
+"contract" :[
+    {"salary":"$30m"},
+    {"length":"4 Years"},
+    {"contractType":"Rookie extension"},
+    {"option":"no"}
+] 
+
+},
+{"firstName" : "Payton",
+"lastName" : "Pritchard",
+"position" : "Point Guard",
+"contract" :[
+    {"salary":"$30m"},
+    {"length":"4 Years"},
+    {"contractType":"Rookie extension"},
+    {"option":"no"}
+] 
+
+},
+{"firstName" : "Derrick",
+"lastName" : "White",
+"position" : "Point Guard",
+"contract" :[
+    {"salary":"$30m"},
+    {"length":"4 Years"},
+    {"contractType":"Rookie extension"},
+    {"option":"no"}
+] 
+
+},
+{"firstName" : "Al",
+"lastName" : "Horford",
+"position" : "Power Forward ",
+"contract" :[
+    {"salary":"$30m"},
+    {"length":"4 Years"},
+    {"contractType":"Rookie extension"},
+    {"option":"no"}
+] 
+
+},
+{"firstName" : "Grant",
+"lastName" : "Williams",
+"position" : "Power Forward ",
+"contract" :[
+    {"salary":"$30m"},
+    {"length":"4 Years"},
+    {"contractType":"Rookie extension"},
+    {"option":"no"}
+] 
+
+},
+{"firstName" : "Rob",
+"lastName" : "Williams III",
+"position" : "Center",
+"contract" :[
+    {"salary":"$30m"},
+    {"length":"4 Years"},
+    {"contractType":"Rookie extension"},
+    {"option":"no"}
+] 
+
+}]
