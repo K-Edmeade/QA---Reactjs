@@ -1,5 +1,6 @@
 import './App.css';
 import HeaderComponent from './headerComponent.jsx';
+import Footer from './footer.jsx';
 
 
 
@@ -36,7 +37,7 @@ function App() {
         <li>Mfiondu Kabengele</li>
         <li>Robert Williams III</li>
         </ul>
-       
+        <Footer colour="green" />
       
     </>
   );

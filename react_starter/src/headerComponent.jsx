@@ -1,6 +1,6 @@
 import React from 'react';
 
-const App  = () =>{
+function App () {
     return(<>
         <h1>Boston Celtics</h1>
         <h3>17 Time World Champions</h3>
