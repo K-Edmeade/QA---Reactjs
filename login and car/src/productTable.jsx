@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 const PlayerTable = () => {
 
@@ -9,108 +9,65 @@ const PlayerTable = () => {
 lastName : "Brown",
 jerseyNumber : 7,
 position : "Shooting Guard",
-contract :[
-    {salary:"$30m"},
-    {length:"4 Years"},
-    {contractType:"Rookie extension"},
-    {option:"no"}
-] 
+
+    
+
 
 },
 {firstName : "Danilo",
 lastName : "Gallinari",
 jerseyNumber : 8,
 position : "Small Forward",
-contract :[
-    {salary:"$30m"},
-    {length:"4 Years"},
-    {contractType:"Rookie extension"},
-    {option:"no"}
-] 
+
 
 },
 {firstName : "Malcolm",
 lastName : "Brogdon",
 position : "Shooting Guard",
 jerseyNumber : 68,
-contract :[
-    {salary:"$30m"},
-    {length:"4 Years"},
-    {contractType:"Rookie extension"},
-    {option:"no"}
-] 
+ 
 
 },
 {firstName : "Marcus",
 lastName : "Smart",
 position : "Point Guard",
 jerseyNumber : 36,
-contract :[
-    {salary:"$30m"},
-    {length:"4 Years"},
-    {contractType:"Rookie extension"},
-    {option:"no"}
-] 
+
 
 },
 {firstName : "Payton",
 lastName : "Pritchard",
 position : "Point Guard",
 jerseyNumber : 11,
-contract :[
-    {salary:"$30m"},
-    {length:"4 Years"},
-    {contractType:"Rookie extension"},
-    {option:"no"}
-] 
+ 
 
 },
 {firstName : "Derrick",
 lastName : "White",
 position : "Point Guard",
 jerseyNumber : 9,
-contract :[
-    {salary:"$30m"},
-    {length:"4 Years"},
-    {contractType:"Rookie extension"},
-    {option:"no"}
-] 
+
 
 },
 {firstName : "Al",
 lastName : "Horford",
 position : "Power Forward ",
 jerseyNumber : 42,
-contract :[
-    {salary:"$30m"},
-    {length:"4 Years"},
-    {contractType:"Rookie extension"},
-    {option:"no"}
-] 
+
 
 },
 {firstName : "Grant",
 lastName : "Williams",
 position : "Power Forward ",
 jerseyNumber : 12,
-contract :[
-    {salary:"$30m"},
-    {length:"4 Years"},
-    {contractType:"Rookie extension"},
-    {option:"no"}
-] 
+ 
 
 },
 {firstName : "Rob",
 lastName : "Williams III",
 position : "Center",
 jerseyNumber : 44,
-contract :[
-    {salary:"$30m"},
-    {length:"4 Years"},
-    {contractType:"Rookie extension"},
-    {option:"no"}
-] 
+
 
 }
     ]
@@ -135,7 +92,9 @@ contract :[
             setLastName(searchedWord);
     };
     return(
-        <div>
+        
+    <>
+    
         <input
           type="search"
           value={lastName}
@@ -152,7 +111,7 @@ contract :[
                 <span >{player.firstName} - </span>
                 <span >{player.lastName} - </span>
                 <span >{player.position} - </span>
-                <span >{player.contract} - </span>
+                
                 
               </li>
             ))
@@ -160,8 +119,7 @@ contract :[
             <h1>No player found!</h1>
           )}
         </div>
-      </div>
-    
+      </>
   );
     
 
